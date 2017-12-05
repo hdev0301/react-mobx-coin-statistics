@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600');
+
+body {
+  padding: 0;
+  margin: 0;
+  background: #F9F7F8;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.Container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 20px;
+  position: relative;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+

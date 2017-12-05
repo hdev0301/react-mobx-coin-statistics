@@ -1,0 +1,22 @@
+.Header {
+  background: #19232f;
+  padding: 15px 0 10px 0;
+}
+
+.Header img {
+}
+
+.Header-Menu {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 0 10px;
+  }
+}
+

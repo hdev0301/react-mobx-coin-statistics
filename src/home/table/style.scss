@@ -1,0 +1,100 @@
+.Table-Group-Header,
+.Table-Column-Header,
+.Table-Column-Header button {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: #fff;
+}
+
+.Table-Column-Header.Name {
+  span {
+    padding: 0 3px;
+  }
+}
+
+.Table-Column-Header button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-top: 2px solid #f1f1f1;
+  border-bottom: 3px solid #f1f1f1;
+  background-color: #f1f1f1;
+}
+
+.Table-Column-Header small {
+  font-size: 8px;
+}
+
+.Table-Column-Header.Sorted.ASC button {
+  border-bottom: 3px solid black;
+}
+
+.Table-Column-Header.Sorted.DESC button {
+  border-top: 2px solid black;
+}
+
+.public_fixedDataTableCell_cellContent {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.Coin-Name-Cell {
+  text-align: left;
+}
+
+.Coin-Name-Cell button {
+  position: absolute;
+  left: 6px;
+  top: 16px;
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.Coin-Name-Cell .public_fixedDataTableCell_cellContent {
+  padding: 4px;
+}
+
+.Coin-Name-Long {
+  font-weight: 500;
+  font-size: 12px;
+  margin-left: 23px;
+}
+
+.Coin-Name-Short {
+  font-weight: 700;
+  margin-left: 23px;
+}
+
+.fixedDataTableCellGroupLayout_cellGroup > .public_fixedDataTableCell_main {
+  border-color: #ebebeb;
+}
+
+.Price-Header {
+  padding-right: 10px;
+}
+
+.Price-Header-Outside {
+  position: absolute;
+  font-size: 10px;
+  right: 10px;
+  top: 9px;
+
+  a {
+    display: block;
+    cursor: pointer;
+
+    &:first-child {
+      border-bottom: 1px solid #cbcbcb;
+    }
+  }
+}
+
+

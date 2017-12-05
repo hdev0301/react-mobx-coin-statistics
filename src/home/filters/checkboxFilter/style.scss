@@ -1,0 +1,28 @@
+.Checkbox-Filter {
+  display: inline-block;
+}
+
+.Checkbox-Filter label {
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.Checkbox-Filter-Element {
+  display: block;
+  margin: 0px auto 0 auto;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.Checkbox-Filter-Element.checked {
+  background-color: #64727D;
+}
+
+.Checkbox-Filter input {
+  display: none;
+}
+

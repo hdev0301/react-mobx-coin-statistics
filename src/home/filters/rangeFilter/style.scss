@@ -1,0 +1,54 @@
+.Filter-Range-Item {
+  display: inline-block;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.Filter-Range-Item-Header {
+  font-size: 15px;
+  border-bottom: 1px solid #ddd;
+  padding: 6px 12px;
+}
+
+.Filter-Range-Item-Content {
+  padding: 16px 40px 36px 40px;
+  text-align: center;
+}
+
+.Filter-Range-Item-Values {
+  display: block;
+  padding-bottom: 16px;
+  font-size: 18px;
+  color: #1CA914;
+}
+
+.rc-slider {
+  border-radius: 0;
+}
+
+.rc-slider-handle {
+  border-radius: 0;
+  height: 26px;
+  margin-top: -6px;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  background-color: #fafafa;
+}
+
+.rc-slider-rail {
+  background-color: #eeeced;
+  border: 1px solid #ddd;
+}
+
+.rc-slider-track {
+  background-color: #64727D;
+}
+
+.rc-slider-rail,
+.rc-slider-step,
+.rc-slider-track {
+  border-radius: 0;
+  height: 16px;
+}
+
